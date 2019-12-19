@@ -1,0 +1,112 @@
+body{background-color: powerblue;
+}
+
+h1{
+  color: red;
+  font-family: sans-serif;
+}
+body {
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+  list-style-type: none;
+  margin: 0;
+  padding-top: 100px;
+  width: 8%;
+  background-color: #305277;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+  text-align: left;
+  -webkit-padding-start:0;
+}
+
+li a {
+  display: block;
+  color: #000;
+  padding: 10px 16px;
+  text-decoration: none;
+}
+
+li a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+li a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+
+
+.header {
+  background-color: #305277;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+}
+
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+  float:left;
+  margin-left: 10%;
+  margin-top: 110px;
+  font-size: 300%;
+  font-weight: 900;
+  text-align: left;
+  }
+
+div.sideoverskrifter{
+margin-top: 20px;
+margin-left: 13%;
+font-weight: bold;
+font-family: sans-serif;
+font-size: 50px;
+float: left;
+}
+
+div.brødtekst{
+float: left;
+margin-left: 11%;
+width:500px;
+background-color: #D3D3D3;
+border-radius: 30px;
+padding: 1px 10px;
+}
+
+div.NORA{
+margin: 5px;
+margin-left: 11%;
+font-size: 75px;
+}
+
+.huskeliste{
+margin-left: 13%
+}
+
+div.skoleinfo{
+background-color: #D3D3D3;
+width: 80%;
+height: 200px;
+border-radius: 20px;
+text-align: left;
+margin-left: 1%;
+font-size: 30px;
+font-family: sans-serif;
+padding: 15px 10px;
+margin-bottom: 30px;
+
+}
+div.left{
+  float:left;
+  width: 80%;
+}
+div.right{
+  float:right;
+  height: 200px;
+  width: 200px;
+}
